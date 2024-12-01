@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "NameApi.Controllers.NameController",
+    "Method": "CreateName",
+    "RelativePath": "api/Name",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nameCreatedDto",
+        "Type": "NameApi.Dtos.NameCreatedDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NameApi.Controllers.NameController",
+    "Method": "GetName",
+    "RelativePath": "api/Name/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NameApi.Controllers.NameController",
+    "Method": "GetNames",
+    "RelativePath": "api/Name/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
